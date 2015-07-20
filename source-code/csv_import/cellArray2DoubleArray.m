@@ -1,6 +1,8 @@
 function [ output_args ] = cellArray2DoubleArray( input_args )
-%UNTITLED2 Summary of this function goes here
-%   Detailed explanation goes here
+%CELLARRAY2DOUBLEARRAY This function converts a cell array into a double array
+%   input_args: The input cell array
+%   output_args: The output double array
+%
 
     tmp = strrep( input_args(:,1),'"','');
 
