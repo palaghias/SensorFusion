@@ -21,7 +21,7 @@ function [ Q ] = getQuaternionFromVector( rv )
  %  @param rv the rotation vector to convert
  %  @param Q an array of floats in which to store the computed quaternion
  %
- %  Android 5.1.0
+ %  Android 5.1.0 
  %
    
     if (length(rv) == 4) 
