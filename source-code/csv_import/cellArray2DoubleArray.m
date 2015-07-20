@@ -1,5 +1,6 @@
 function [ output_args ] = cellArray2DoubleArray( input_args )
 %CELLARRAY2DOUBLEARRAY This function converts a cell array into a double array
+%
 %   input_args: The input cell array
 %   output_args: The output double array
 %
