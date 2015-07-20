@@ -10,3 +10,13 @@ a) Accelerometer - Magnetic Field and
 b) Gravity tracking through Gyroscope. 
 
 Finally, the orientations from the two components are fused. (http://www.thousand-thoughts.com/2012/03/android-sensor-fusion-tutorial/)  
+
+The developer should note that testSensorFusion imports the data from a CSV file that follows a particular structure; the import method should be modified otherwise.
+
+
+# How-to
+1) Clone the project in a directory and navigate Matlab/Octave to the particular directory.
+
+2) Run the test file: source-code/sensor_fusion/testSensorFusion.m
+
+
